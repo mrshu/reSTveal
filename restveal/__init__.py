@@ -2,8 +2,8 @@
 
 Usage:
   restveal <file> <directory>
-  naval_fate.py (-h | --help)
-  naval_fate.py --version
+  restveal (-h | --help)
+  restveal --version
 
 Options:
   -h --help     Show this screen.
@@ -16,3 +16,6 @@ from docopt import docopt
 def main():
     arguments = docopt(__doc__, version='reSTveal 0.1')
     print(arguments)
+
+if __name__ == "__main__":
+    main()
